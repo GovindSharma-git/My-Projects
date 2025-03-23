@@ -4,7 +4,7 @@ using namespace std;
 int q=0;
 bool Tic(vector<vector<int>> &v, int x, int y, int p)
 {
-    if (x >= 3 || y >= 3)
+    if (x >= 3 || y >= 3 || x<0 || y<0)
     {
         cout <<endl<< "Invalid Input! Play Again" << endl<<endl;
         q=p;
